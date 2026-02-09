@@ -11,7 +11,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file jon_shared_data_heater.proto.
  */
 export const file_jon_shared_data_heater: GenFile = /*@__PURE__*/
-  fileDesc("Chxqb25fc2hhcmVkX2RhdGFfaGVhdGVyLnByb3RvEgNzZXIikgEKHUpvbkd1aURhdGFIZWF0ZXJDaGFubmVsU3RhdHVzEhMKC3RlbXBlcmF0dXJlGAEgASgCEiUKEWFwcGxpZWRfdm9sdGFnZV9WGAIgASgCQgq6SAcKBS0AAAAAEiQKEHRhcmdldF92b2x0YWdlX1YYAyABKAJCCrpIBwoFLQAAAAASDwoHZW5hYmxlZBgEIAEoCCK5AgoQSm9uR3VpRGF0YUhlYXRlchIhCg1idXNfdm9sdGFnZV9WGAEgASgCQgq6SAcKBS0AAAAAEh0KCWN1cnJlbnRfQRgCIAEoAkIKukgHCgUtAAAAABIbCgdwb3dlcl9XGAMgASgCQgq6SAcKBS0AAAAAEjUKCWNoYW5uZWxfMBgEIAEoCzIiLnNlci5Kb25HdWlEYXRhSGVhdGVyQ2hhbm5lbFN0YXR1cxI1CgljaGFubmVsXzEYBSABKAsyIi5zZXIuSm9uR3VpRGF0YUhlYXRlckNoYW5uZWxTdGF0dXMSNQoJY2hhbm5lbF8yGAYgASgLMiIuc2VyLkpvbkd1aURhdGFIZWF0ZXJDaGFubmVsU3RhdHVzEiEKGWF1dG9tYXRpY19jb250cm9sX2VuYWJsZWQYByABKAhCTlpMZ2l0LWNvZGVjb21taXQuZXUtY2VudHJhbC0xLmFtYXpvbmF3cy5jb20vdjEvcmVwb3MvamV0dGlzb24vam9ucC9kYXRhL2hlYXRlcmIGcHJvdG8z", [file_buf_validate_validate]);
+  fileDesc("Chxqb25fc2hhcmVkX2RhdGFfaGVhdGVyLnByb3RvEgNzZXIikgEKHUpvbkd1aURhdGFIZWF0ZXJDaGFubmVsU3RhdHVzEhMKC3RlbXBlcmF0dXJlGAEgASgCEiUKEWFwcGxpZWRfdm9sdGFnZV9WGAIgASgCQgq6SAcKBS0AAAAAEiQKEHRhcmdldF92b2x0YWdlX1YYAyABKAJCCrpIBwoFLQAAAAASDwoHZW5hYmxlZBgEIAEoCCLJAwoQSm9uR3VpRGF0YUhlYXRlchIhCg1idXNfdm9sdGFnZV9WGAEgASgCQgq6SAcKBS0AAAAAEh0KCWN1cnJlbnRfQRgCIAEoAkIKukgHCgUtAAAAABIbCgdwb3dlcl9XGAMgASgCQgq6SAcKBS0AAAAAEjUKCWNoYW5uZWxfMBgEIAEoCzIiLnNlci5Kb25HdWlEYXRhSGVhdGVyQ2hhbm5lbFN0YXR1cxI1CgljaGFubmVsXzEYBSABKAsyIi5zZXIuSm9uR3VpRGF0YUhlYXRlckNoYW5uZWxTdGF0dXMSNQoJY2hhbm5lbF8yGAYgASgLMiIuc2VyLkpvbkd1aURhdGFIZWF0ZXJDaGFubmVsU3RhdHVzEiEKGWF1dG9tYXRpY19jb250cm9sX2VuYWJsZWQYByABKAgSLgoVdGFyZ2V0X3RlbXBfY2hhbm5lbF8wGAggASgCQg+6SAwKCh0AAHBCLQAAAAASLgoVdGFyZ2V0X3RlbXBfY2hhbm5lbF8xGAkgASgCQg+6SAwKCh0AAHBCLQAAAAASLgoVdGFyZ2V0X3RlbXBfY2hhbm5lbF8yGAogASgCQg+6SAwKCh0AAHBCLQAAAABCTlpMZ2l0LWNvZGVjb21taXQuZXUtY2VudHJhbC0xLmFtYXpvbmF3cy5jb20vdjEvcmVwb3MvamV0dGlzb24vam9ucC9kYXRhL2hlYXRlcmIGcHJvdG8z", [file_buf_validate_validate]);
 
 /**
  * HeaterChannelStatus represents the state of a single heating channel
@@ -69,16 +69,22 @@ export type JonGuiDataHeater = Message<"ser.JonGuiDataHeater"> & {
   powerW: number;
 
   /**
+   * Day camera glass (60W)
+   *
    * @generated from field: ser.JonGuiDataHeaterChannelStatus channel_0 = 4;
    */
   channel0?: JonGuiDataHeaterChannelStatus;
 
   /**
+   * LRF glass (15W)
+   *
    * @generated from field: ser.JonGuiDataHeaterChannelStatus channel_1 = 5;
    */
   channel1?: JonGuiDataHeaterChannelStatus;
 
   /**
+   * Heat camera glass (60W)
+   *
    * @generated from field: ser.JonGuiDataHeaterChannelStatus channel_2 = 6;
    */
   channel2?: JonGuiDataHeaterChannelStatus;
@@ -87,6 +93,23 @@ export type JonGuiDataHeater = Message<"ser.JonGuiDataHeater"> & {
    * @generated from field: bool automatic_control_enabled = 7;
    */
   automaticControlEnabled: boolean;
+
+  /**
+   * Target temperatures for PID control (persisted via state storage)
+   *
+   * @generated from field: float target_temp_channel_0 = 8;
+   */
+  targetTempChannel0: number;
+
+  /**
+   * @generated from field: float target_temp_channel_1 = 9;
+   */
+  targetTempChannel1: number;
+
+  /**
+   * @generated from field: float target_temp_channel_2 = 10;
+   */
+  targetTempChannel2: number;
 };
 
 /**
