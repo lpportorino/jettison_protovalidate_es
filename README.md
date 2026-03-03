@@ -7,5 +7,5 @@ Auto-generated TypeScript bindings with validation using @bufbuild/protovalidate
 npm install @lpportorino/jettison-protovalidate-es
 ```
 
-Generated: 2026-02-27 14:50:34 UTC
-Commit: 724e92e6ffe19a1a25fe7127456476bb8dc009d2
+Generated: 2026-03-03 11:44:26 UTC
+Commit: 5e3b4f91484893f58f97e65de4af8aa0fc829a95
