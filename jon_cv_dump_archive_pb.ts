@@ -11,7 +11,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file jon_cv_dump_archive.proto.
  */
 export const file_jon_cv_dump_archive: GenFile = /*@__PURE__*/
-  fileDesc("Chlqb25fY3ZfZHVtcF9hcmNoaXZlLnByb3RvEgpqb24uY3ZkdW1wIrIDCg1DdkR1bXBBcmNoaXZlEjEKB3ZlcnNpb24YASABKA4yIC5qb24uY3ZkdW1wLkFyY2hpdmVGb3JtYXRWZXJzaW9uEhMKAmlkGAIgASgJQge6SARyAhAkEhQKDGdlbmVyYXRlZF9hdBgDIAEoCRIpCgZ3aW5kb3cYBCABKAsyGS5qb24uY3ZkdW1wLkNhcHR1cmVXaW5kb3cSMQoKcHJvdmVuYW5jZRgFIAEoDjIdLmpvbi5jdmR1bXAuU2Vzc2lvblByb3ZlbmFuY2USDAoEbm90ZRgGIAEoCRIsCgdtYWNoaW5lGAcgASgLMhsuam9uLmN2ZHVtcC5NYWNoaW5lSWRlbnRpdHkSLgoJaW50ZWdyaXR5GAggASgLMhsuam9uLmN2ZHVtcC5JbnRlZ3JpdHlSZXBvcnQSJwoFdmlkZW8YCSADKAsyGC5qb24uY3ZkdW1wLlZpZGVvQ2hhbm5lbBIoCgdzdHJlYW1zGAogAygLMhcuam9uLmN2ZHVtcC5TdHJlYW1Hcm91cBImCgVzaG90cxgLIAMoCzIXLmpvbi5jdmR1bXAuU2hvdENhcHR1cmUi8wEKCVNob3RQbGFuZRIWCgVwbGFuZRgBIAEoDUIHukgEKgIYAxILCgN0YWcYAiABKA0SFQoNc291cmNlX2Zvcm1hdBgDIAEoDRIVCgRwYXRoGAQgASgJQge6SARyAhABEhkKCGVuY29kaW5nGAUgASgJQge6SARyAhABEg0KBXdpZHRoGAYgASgNEg4KBmhlaWdodBgHIAEoDRINCgVwaXRjaBgIIAEoDRIRCgl1dl9vZmZzZXQYCSABKA0SDQoFYnl0ZXMYCiABKAQSKAoGc2hhMjU2GAsgASgJQhi6SBVyEzIOXlswLTlhLWZdezY0fSSYAUAiwQEKC1Nob3RDYXB0dXJlEiEKB2NoYW5uZWwYASABKAlCELpIDXILUgNkYXlSBGhlYXQSEgoKZ2VuZXJhdGlvbhgCIAEoDRIOCgZwdHNfbnMYAyABKAQSFwoPY2FwdHVyZV90aW1lX25zGAQgASgEEhQKDGN0bF9zbmFwc2hvdBgFIAEoDBIlCgZwbGFuZXMYBiADKAsyFS5qb24uY3ZkdW1wLlNob3RQbGFuZRIVCg1hYnNlbnRfcmVhc29uGAcgASgJIlkKDUNhcHR1cmVXaW5kb3cSDwoHdDBfd2FsbBgBIAEoCRIPCgd0MV93YWxsGAIgASgJEhIKCnQwX2Jvb3RfbnMYAyABKAMSEgoKdDFfYm9vdF9ucxgEIAEoAyKiAgoPTWFjaGluZUlkZW50aXR5EhcKCm1hY2hpbmVfaWQYASABKAlIAIgBARIVCghob3N0bmFtZRgCIAEoCUgBiAEBEhUKCGh3X21vZGVsGAMgASgJSAKIAQESFAoHYm9vdF9pZBgEIAEoCUgDiAEBEi0KBmRlcGxveRgFIAEoCzIdLmpvbi5jdmR1bXAuRGVwbG95RmluZ2VycHJpbnQSMgoPY2hhbm5lbHNfY29uZmlnGAYgAygLMhkuam9uLmN2ZHVtcC5DaGFubmVsQ29uZmlnEhoKEm1hY2hpbmVfaW5jb21wbGV0ZRgHIAEoCEINCgtfbWFjaGluZV9pZEILCglfaG9zdG5hbWVCCwoJX2h3X21vZGVsQgoKCF9ib290X2lkImUKEURlcGxveUZpbmdlcnByaW50EhMKC2ZpbmdlcnByaW50GAEgASgJEhQKDGpldHRpc29uX3NoYRgCIAEoCRIQCghkZXNjcmliZRgDIAEoCRITCgtkZXBsb3llZF9hdBgEIAEoCSJ8Cg1DaGFubmVsQ29uZmlnEg8KB2NoYW5uZWwYASABKAkSDQoFd2lkdGgYAiABKA0SDgoGaGVpZ2h0GAMgASgNEhEKCWZwc19saW1pdBgEIAEoDRISCgpzZW5zb3JfZnBzGAUgASgNEhQKDGNyb3BfbWFyZ2lucxgGIAEoDSK+AgoPSW50ZWdyaXR5UmVwb3J0EikKBnN0YXR1cxgBIAEoDjIZLmpvbi5jdmR1bXAuQXJjaGl2ZVN0YXR1cxIXCg9sYXBwZWRfc2VnbWVudHMYAiABKA0SGQoRd2luZG93X3N0YXJ0X2xvc3QYAyABKAgSGgoSd3JpdGVyX3NlZ19za2lwcGVkGAQgASgIEhsKE3JlY19jb250cm9sX3Vua25vd24YBSABKAgSGQoRcmVjX2VuYWJsZV9mYWlsZWQYBiABKAgSIAoYbm9fd2luZG93X3ZpZGVvX2NoYW5uZWxzGAcgAygJEhkKEXRydW5jYXRlZF9zb3VyY2VzGAggAygJEhwKFHRlbGVtZXRyeV9pbmNvbXBsZXRlGAkgASgIEh0KFWlvX3JlY29yZHNfaW5jb21wbGV0ZRgKIAEoCCJLCgxWaWRlb0NoYW5uZWwSDwoHY2hhbm5lbBgBIAEoCRIqCghzZWdtZW50cxgCIAMoCzIYLmpvbi5jdmR1bXAuVmlkZW9TZWdtZW50IosBCgxWaWRlb1NlZ21lbnQSEAoIc2VxdWVuY2UYASABKA0SDAoEcGF0aBgCIAEoCRINCgVieXRlcxgDIAEoBBIYCgZzaGEyNTYYBCABKAlCCLpIBXIDmAFAEhAKCHN0YXJ0X25zGAUgASgDEg4KBmVuZF9ucxgGIAEoAxIQCghvcGVuX2VuZBgHIAEoCCKQAgoLU3RyZWFtR3JvdXASJAoEa2luZBgBIAEoDjIWLmpvbi5jdmR1bXAuU3RyZWFtS2luZBIXCgZzb3VyY2UYAiABKAlCB7pIBHICEAESJwoFY29kZWMYAyABKA4yGC5qb24uY3ZkdW1wLkFyY2hpdmVDb2RlYxIUCgxyZWNvcmRfY291bnQYBCABKAQSFQoNZGVjb2RlZF9ieXRlcxgFIAEoBBIgCg5kZWNvZGVkX3NoYTI1NhgGIAEoCUIIukgFcgOYAUASEQoJdHJ1bmNhdGVkGAcgASgIEiYKB2NvbHVtbnMYCCADKAsyFS5qb24uY3ZkdW1wLkNvbHVtbkRlZhIPCgdwYXlsb2FkGAkgASgMIicKCUNvbHVtbkRlZhIMCgRuYW1lGAEgASgJEgwKBHR5cGUYAiABKAkiRAoSUmVkaXNTdHJlYW1SZWNvcmRzEi4KB3JlY29yZHMYASADKAsyHS5qb24uY3ZkdW1wLlJlZGlzU3RyZWFtUmVjb3JkIk0KEVJlZGlzU3RyZWFtUmVjb3JkEgoKAmlkGAEgASgJEiwKBmZpZWxkcxgCIAMoCzIcLmpvbi5jdmR1bXAuUmVkaXNTdHJlYW1GaWVsZCIvChBSZWRpc1N0cmVhbUZpZWxkEgwKBG5hbWUYASABKAkSDQoFdmFsdWUYAiABKAwiGQoJVGFibGVSb3dzEgwKBHJvd3MYASADKAwqXQoUQXJjaGl2ZUZvcm1hdFZlcnNpb24SJgoiQVJDSElWRV9GT1JNQVRfVkVSU0lPTl9VTlNQRUNJRklFRBAAEh0KGUFSQ0hJVkVfRk9STUFUX1ZFUlNJT05fVjMQAypFCgxBcmNoaXZlQ29kZWMSHQoZQVJDSElWRV9DT0RFQ19VTlNQRUNJRklFRBAAEhYKEkFSQ0hJVkVfQ09ERUNfTk9ORRABKrIBCgpTdHJlYW1LaW5kEhsKF1NUUkVBTV9LSU5EX1VOU1BFQ0lGSUVEEAASEwoPU1RSRUFNX0tJTkRfQ0FOEAESGwoXU1RSRUFNX0tJTkRfUk9UQVJZX1VBUlQQAhIZChVTVFJFQU1fS0lORF9GUkFNRV9UQVAQAxIaChZTVFJFQU1fS0lORF9UU0RCX1RBQkxFEAQSHgoaU1RSRUFNX0tJTkRfTU9USU9OX0hJU1RPUlkQBSqDAQoNQXJjaGl2ZVN0YXR1cxIeChpBUkNISVZFX1NUQVRVU19VTlNQRUNJRklFRBAAEhsKF0FSQ0hJVkVfU1RBVFVTX0NPTVBMRVRFEAESGgoWQVJDSElWRV9TVEFUVVNfUEFSVElBTBACEhkKFUFSQ0hJVkVfU1RBVFVTX0ZBSUxFRBADKnwKEVNlc3Npb25Qcm92ZW5hbmNlEiIKHlNFU1NJT05fUFJPVkVOQU5DRV9VTlNQRUNJRklFRBAAEh8KG1NFU1NJT05fUFJPVkVOQU5DRV9FVVRST1BJQRABEiIKHlNFU1NJT05fUFJPVkVOQU5DRV9TWU5USEVTSVpFRBACQklaR2dpdC1jb2RlY29tbWl0LmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tL3YxL3JlcG9zL2pldHRpc29uL2pvbnAvY3ZkdW1wYgZwcm90bzM", [file_buf_validate_validate]);
+  fileDesc("Chlqb25fY3ZfZHVtcF9hcmNoaXZlLnByb3RvEgpqb24uY3ZkdW1wIp4ECg1DdkR1bXBBcmNoaXZlEjEKB3ZlcnNpb24YASABKA4yIC5qb24uY3ZkdW1wLkFyY2hpdmVGb3JtYXRWZXJzaW9uEhMKAmlkGAIgASgJQge6SARyAhAkEhQKDGdlbmVyYXRlZF9hdBgDIAEoCRIpCgZ3aW5kb3cYBCABKAsyGS5qb24uY3ZkdW1wLkNhcHR1cmVXaW5kb3cSMQoKcHJvdmVuYW5jZRgFIAEoDjIdLmpvbi5jdmR1bXAuU2Vzc2lvblByb3ZlbmFuY2USDAoEbm90ZRgGIAEoCRIsCgdtYWNoaW5lGAcgASgLMhsuam9uLmN2ZHVtcC5NYWNoaW5lSWRlbnRpdHkSLgoJaW50ZWdyaXR5GAggASgLMhsuam9uLmN2ZHVtcC5JbnRlZ3JpdHlSZXBvcnQSJwoFdmlkZW8YCSADKAsyGC5qb24uY3ZkdW1wLlZpZGVvQ2hhbm5lbBIoCgdzdHJlYW1zGAogAygLMhcuam9uLmN2ZHVtcC5TdHJlYW1Hcm91cBImCgVzaG90cxgLIAMoCzIXLmpvbi5jdmR1bXAuU2hvdENhcHR1cmUSNQoRZ2lnZV9wYWNrZXRfcmluZ3MYDCADKAsyGi5qb24uY3ZkdW1wLkdpZ2VQYWNrZXRSaW5nEjMKEGdpZ2Vfc3RhdHNfcmluZ3MYDSADKAsyGS5qb24uY3ZkdW1wLkdpZ2VTdGF0c1Jpbmci8wEKCVNob3RQbGFuZRIWCgVwbGFuZRgBIAEoDUIHukgEKgIYAxILCgN0YWcYAiABKA0SFQoNc291cmNlX2Zvcm1hdBgDIAEoDRIVCgRwYXRoGAQgASgJQge6SARyAhABEhkKCGVuY29kaW5nGAUgASgJQge6SARyAhABEg0KBXdpZHRoGAYgASgNEg4KBmhlaWdodBgHIAEoDRINCgVwaXRjaBgIIAEoDRIRCgl1dl9vZmZzZXQYCSABKA0SDQoFYnl0ZXMYCiABKAQSKAoGc2hhMjU2GAsgASgJQhi6SBVyEzIOXlswLTlhLWZdezY0fSSYAUAiwQEKC1Nob3RDYXB0dXJlEiEKB2NoYW5uZWwYASABKAlCELpIDXILUgNkYXlSBGhlYXQSEgoKZ2VuZXJhdGlvbhgCIAEoDRIOCgZwdHNfbnMYAyABKAQSFwoPY2FwdHVyZV90aW1lX25zGAQgASgEEhQKDGN0bF9zbmFwc2hvdBgFIAEoDBIlCgZwbGFuZXMYBiADKAsyFS5qb24uY3ZkdW1wLlNob3RQbGFuZRIVCg1hYnNlbnRfcmVhc29uGAcgASgJIlkKDUNhcHR1cmVXaW5kb3cSDwoHdDBfd2FsbBgBIAEoCRIPCgd0MV93YWxsGAIgASgJEhIKCnQwX2Jvb3RfbnMYAyABKAMSEgoKdDFfYm9vdF9ucxgEIAEoAyKiAgoPTWFjaGluZUlkZW50aXR5EhcKCm1hY2hpbmVfaWQYASABKAlIAIgBARIVCghob3N0bmFtZRgCIAEoCUgBiAEBEhUKCGh3X21vZGVsGAMgASgJSAKIAQESFAoHYm9vdF9pZBgEIAEoCUgDiAEBEi0KBmRlcGxveRgFIAEoCzIdLmpvbi5jdmR1bXAuRGVwbG95RmluZ2VycHJpbnQSMgoPY2hhbm5lbHNfY29uZmlnGAYgAygLMhkuam9uLmN2ZHVtcC5DaGFubmVsQ29uZmlnEhoKEm1hY2hpbmVfaW5jb21wbGV0ZRgHIAEoCEINCgtfbWFjaGluZV9pZEILCglfaG9zdG5hbWVCCwoJX2h3X21vZGVsQgoKCF9ib290X2lkImUKEURlcGxveUZpbmdlcnByaW50EhMKC2ZpbmdlcnByaW50GAEgASgJEhQKDGpldHRpc29uX3NoYRgCIAEoCRIQCghkZXNjcmliZRgDIAEoCRITCgtkZXBsb3llZF9hdBgEIAEoCSJ8Cg1DaGFubmVsQ29uZmlnEg8KB2NoYW5uZWwYASABKAkSDQoFd2lkdGgYAiABKA0SDgoGaGVpZ2h0GAMgASgNEhEKCWZwc19saW1pdBgEIAEoDRISCgpzZW5zb3JfZnBzGAUgASgNEhQKDGNyb3BfbWFyZ2lucxgGIAEoDSKJAwoPSW50ZWdyaXR5UmVwb3J0EikKBnN0YXR1cxgBIAEoDjIZLmpvbi5jdmR1bXAuQXJjaGl2ZVN0YXR1cxIXCg9sYXBwZWRfc2VnbWVudHMYAiABKA0SGQoRd2luZG93X3N0YXJ0X2xvc3QYAyABKAgSGgoSd3JpdGVyX3NlZ19za2lwcGVkGAQgASgIEhsKE3JlY19jb250cm9sX3Vua25vd24YBSABKAgSGQoRcmVjX2VuYWJsZV9mYWlsZWQYBiABKAgSIAoYbm9fd2luZG93X3ZpZGVvX2NoYW5uZWxzGAcgAygJEhkKEXRydW5jYXRlZF9zb3VyY2VzGAggAygJEhwKFHRlbGVtZXRyeV9pbmNvbXBsZXRlGAkgASgIEh0KFWlvX3JlY29yZHNfaW5jb21wbGV0ZRgKIAEoCBIkChxnaWdlX3BhY2tldF9yaW5nc19pbmNvbXBsZXRlGAsgASgIEiMKG2dpZ2Vfc3RhdHNfcmluZ3NfaW5jb21wbGV0ZRgMIAEoCCJLCgxWaWRlb0NoYW5uZWwSDwoHY2hhbm5lbBgBIAEoCRIqCghzZWdtZW50cxgCIAMoCzIYLmpvbi5jdmR1bXAuVmlkZW9TZWdtZW50IosBCgxWaWRlb1NlZ21lbnQSEAoIc2VxdWVuY2UYASABKA0SDAoEcGF0aBgCIAEoCRINCgVieXRlcxgDIAEoBBIYCgZzaGEyNTYYBCABKAlCCLpIBXIDmAFAEhAKCHN0YXJ0X25zGAUgASgDEg4KBmVuZF9ucxgGIAEoAxIQCghvcGVuX2VuZBgHIAEoCCK0AgoOR2lnZVBhY2tldFJpbmcSIQoHY2hhbm5lbBgBIAEoCUIQukgNcgtSA2RheVIEaGVhdBIMCgRwYXRoGAIgASgJEg0KBWJ5dGVzGAMgASgEEigKBnNoYTI1NhgEIAEoCUIYukgVchMyEV4oWzAtOWEtZl17NjR9KT8kEhQKDHJlY29yZF9jb3VudBgFIAEoBBIfChdvdmVyd3JpdHRlbl9kdXJpbmdfY29weRgGIAEoBBIWCg5vdXRzaWRlX3dpbmRvdxgHIAEoBBIZChF3aW5kb3dfc3RhcnRfbG9zdBgIIAEoCBIVCg1hYnNlbnRfcmVhc29uGAkgASgJEhYKDndyaXRlcl9yZWZ1c2VkGAogASgEEh8KF292ZXJ3cml0dGVuX2JlZm9yZV9jb3B5GAsgASgEIscCCg1HaWdlU3RhdHNSaW5nEiEKB2NoYW5uZWwYASABKAlCELpIDXILUgNkYXlSBGhlYXQSDAoEcGF0aBgCIAEoCRINCgVieXRlcxgDIAEoBBIoCgZzaGEyNTYYBCABKAlCGLpIFXITMhFeKFswLTlhLWZdezY0fSk/JBIUCgxyZWNvcmRfY291bnQYBSABKAQSHwoXb3ZlcndyaXR0ZW5fZHVyaW5nX2NvcHkYBiABKAQSFgoOb3V0c2lkZV93aW5kb3cYByABKAQSGQoRd2luZG93X3N0YXJ0X2xvc3QYCCABKAgSFQoNYWJzZW50X3JlYXNvbhgJIAEoCRIWCg53cml0ZXJfcmVmdXNlZBgKIAEoBBIfChdvdmVyd3JpdHRlbl9iZWZvcmVfY29weRgLIAEoBBISCgpyZWNvcmRfbGVuGAwgASgNIpACCgtTdHJlYW1Hcm91cBIkCgRraW5kGAEgASgOMhYuam9uLmN2ZHVtcC5TdHJlYW1LaW5kEhcKBnNvdXJjZRgCIAEoCUIHukgEcgIQARInCgVjb2RlYxgDIAEoDjIYLmpvbi5jdmR1bXAuQXJjaGl2ZUNvZGVjEhQKDHJlY29yZF9jb3VudBgEIAEoBBIVCg1kZWNvZGVkX2J5dGVzGAUgASgEEiAKDmRlY29kZWRfc2hhMjU2GAYgASgJQgi6SAVyA5gBQBIRCgl0cnVuY2F0ZWQYByABKAgSJgoHY29sdW1ucxgIIAMoCzIVLmpvbi5jdmR1bXAuQ29sdW1uRGVmEg8KB3BheWxvYWQYCSABKAwiJwoJQ29sdW1uRGVmEgwKBG5hbWUYASABKAkSDAoEdHlwZRgCIAEoCSJEChJSZWRpc1N0cmVhbVJlY29yZHMSLgoHcmVjb3JkcxgBIAMoCzIdLmpvbi5jdmR1bXAuUmVkaXNTdHJlYW1SZWNvcmQiTQoRUmVkaXNTdHJlYW1SZWNvcmQSCgoCaWQYASABKAkSLAoGZmllbGRzGAIgAygLMhwuam9uLmN2ZHVtcC5SZWRpc1N0cmVhbUZpZWxkIi8KEFJlZGlzU3RyZWFtRmllbGQSDAoEbmFtZRgBIAEoCRINCgV2YWx1ZRgCIAEoDCIZCglUYWJsZVJvd3MSDAoEcm93cxgBIAMoDCpdChRBcmNoaXZlRm9ybWF0VmVyc2lvbhImCiJBUkNISVZFX0ZPUk1BVF9WRVJTSU9OX1VOU1BFQ0lGSUVEEAASHQoZQVJDSElWRV9GT1JNQVRfVkVSU0lPTl9WMxADKkUKDEFyY2hpdmVDb2RlYxIdChlBUkNISVZFX0NPREVDX1VOU1BFQ0lGSUVEEAASFgoSQVJDSElWRV9DT0RFQ19OT05FEAEqyAEKClN0cmVhbUtpbmQSGwoXU1RSRUFNX0tJTkRfVU5TUEVDSUZJRUQQABITCg9TVFJFQU1fS0lORF9DQU4QARIbChdTVFJFQU1fS0lORF9ST1RBUllfVUFSVBACEhkKFVNUUkVBTV9LSU5EX0ZSQU1FX1RBUBADEhoKFlNUUkVBTV9LSU5EX1RTREJfVEFCTEUQBBIeChpTVFJFQU1fS0lORF9NT1RJT05fSElTVE9SWRAFEhQKEFNUUkVBTV9LSU5EX0dJR0UQBiqDAQoNQXJjaGl2ZVN0YXR1cxIeChpBUkNISVZFX1NUQVRVU19VTlNQRUNJRklFRBAAEhsKF0FSQ0hJVkVfU1RBVFVTX0NPTVBMRVRFEAESGgoWQVJDSElWRV9TVEFUVVNfUEFSVElBTBACEhkKFUFSQ0hJVkVfU1RBVFVTX0ZBSUxFRBADKnwKEVNlc3Npb25Qcm92ZW5hbmNlEiIKHlNFU1NJT05fUFJPVkVOQU5DRV9VTlNQRUNJRklFRBAAEh8KG1NFU1NJT05fUFJPVkVOQU5DRV9FVVRST1BJQRABEiIKHlNFU1NJT05fUFJPVkVOQU5DRV9TWU5USEVTSVpFRBACQklaR2dpdC1jb2RlY29tbWl0LmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tL3YxL3JlcG9zL2pldHRpc29uL2pvbnAvY3ZkdW1wYgZwcm90bzM", [file_buf_validate_validate]);
 
 /**
  * ONE capture-session archive — the whole self-description of a cv_dump bundle
@@ -132,6 +132,33 @@ export type CvDumpArchive = Message<"jon.cvdump.CvDumpArchive"> & {
    * @generated from field: repeated jon.cvdump.ShotCapture shots = 11;
    */
   shots: ShotCapture[];
+
+  /**
+   * The GigE camera link's `packets` trace level: one compacted ring file per
+   * channel under `gige/`, described here. ONE ENTRY PER CHANNEL WHOSE RING
+   * THE HARVESTER LOOKED FOR, the VideoChannel rule — a channel with no ring
+   * file appears with zero records and an absent_reason rather than being
+   * dropped. The ring BYTES are files, like the video segments; this is their
+   * inventory plus what the harvest discarded and why. The `control` and
+   * `frames` levels travel as STREAM_KIND_GIGE groups in `streams`.
+   *
+   * @generated from field: repeated jon.cvdump.GigePacketRing gige_packet_rings = 12;
+   */
+  gigePacketRings: GigePacketRing[];
+
+  /**
+   * The GigE camera link's `stats` trace: one compacted ring file per channel
+   * under `gige/`, described here, each record one frame's MAX10 statistics
+   * chunks beside the ISP statistics the harness published for the same
+   * frame. ONE ENTRY PER CHANNEL WHOSE RING THE HARVESTER LOOKED FOR, the
+   * VideoChannel rule — a channel with no ring file (heat has none at all)
+   * appears with zero records and an absent_reason rather than being
+   * dropped. The ring BYTES are files; this is their inventory plus what the
+   * harvest discarded and why.
+   *
+   * @generated from field: repeated jon.cvdump.GigeStatsRing gige_stats_rings = 13;
+   */
+  gigeStatsRings: GigeStatsRing[];
 };
 
 /**
@@ -602,6 +629,33 @@ export type IntegrityReport = Message<"jon.cvdump.IntegrityReport"> & {
    * @generated from field: bool io_records_incomplete = 10;
    */
   ioRecordsIncomplete: boolean;
+
+  /**
+   * A GigE packet ring file that EXISTED could not be read or failed
+   * validation — bad magic, version or record length in its header, or a
+   * record kept for the window that does not decode — so the window's packet
+   * trace is unrecoverable later, and this IS partial. The refused channel's
+   * GigePacketRing carries the reason too. A ring that does not exist (no file
+   * on the box, the `packets` level never armed) does NOT set this flag: it is
+   * recorded only as that channel's GigePacketRing.absent_reason.
+   *
+   * @generated from field: bool gige_packet_rings_incomplete = 11;
+   */
+  gigePacketRingsIncomplete: boolean;
+
+  /**
+   * A GigE stats ring file that EXISTED could not be read or failed
+   * validation — bad magic, version or record length in its header, or a
+   * record kept for the window that does not decode — so the window's
+   * per-frame statistics pairs are unrecoverable later, and this IS partial.
+   * The refused channel's GigeStatsRing carries the reason too. A ring that
+   * does not exist (no file on the box, `gige_trace.stats` never on, a
+   * channel that has no stats ring) does NOT set this flag: it is recorded
+   * only as that channel's GigeStatsRing.absent_reason.
+   *
+   * @generated from field: bool gige_stats_rings_incomplete = 12;
+   */
+  gigeStatsRingsIncomplete: boolean;
 };
 
 /**
@@ -710,6 +764,320 @@ export const VideoSegmentSchema: GenMessage<VideoSegment> = /*@__PURE__*/
   messageDesc(file_jon_cv_dump_archive, 9);
 
 /**
+ * One channel's GigE `packets` trace ring, copied off the box and compacted to
+ * the capture window.
+ *
+ * On the box the ring is
+ * `/dev/shm/jettison/gige-<chan>/jon_gige_packets_<chan>.ring`, written by the
+ * receiver (gige-ingress, inside the sensor harness) only while the `packets`
+ * trace level is in force: a 64-byte `JGRG` header, then one 48-byte
+ * record per GVSP datagram received, in a 64 MiB file overwritten oldest-first
+ * under a seqlock (header layout GIGE_TRACE_RING_* in inc/gige/gige_trace.h).
+ * The camera side writes no packets ring. The harvester copies the ring while
+ * its writer may still be writing, keeps only the records no write could have
+ * touched during the copy (the seqlock rule of PacketRing::read in
+ * mods/gige/crates/gige-ingress/src/trace.rs), then keeps only those whose
+ * mono_ns falls inside [t0,t1].
+ *
+ * mono_ns is CLOCK_MONOTONIC (the receive batch the datagram arrived in),
+ * compared here against the CLOCK_BOOTTIME window in CaptureWindow. On a
+ * target that never suspends the two coincide; that is a premise, not an
+ * identity.
+ *
+ * The bundle file is itself a VALID ring, so the same readers read it: the
+ * box's 64-byte header with capacity, head and begun each set to
+ * record_count (every other header field as the box wrote it), then the kept
+ * records oldest-first from slot 0. Every ring reader refuses a zero-capacity
+ * header (RingHeader::decode), so when no record survives no file is written:
+ * path and sha256 are empty, record_count is 0 and absent_reason says why.
+ *
+ * What it can NOT hold: datagrams the ring had already overwritten before the
+ * copy began (counted over the ring's life by overwritten_before_copy;
+ * window_start_lost says whether they reach into the window), datagrams the
+ * writer could not place (writer_refused), and datagrams the receiver never
+ * saw. A record proves a datagram ARRIVED; a missing packet id proves nothing
+ * until window_start_lost and overwritten_during_copy are both clear for the
+ * stretch it falls in and writer_refused is 0.
+ *
+ * @generated from message jon.cvdump.GigePacketRing
+ */
+export type GigePacketRing = Message<"jon.cvdump.GigePacketRing"> & {
+  /**
+   * "day" | "heat".
+   *
+   * @generated from field: string channel = 1;
+   */
+  channel: string;
+
+  /**
+   * Bundle-relative, "gige/packets_<chan>.ring". Empty exactly when there is
+   * no file — then absent_reason says why.
+   *
+   * @generated from field: string path = 2;
+   */
+  path: string;
+
+  /**
+   * Size of the bundle file; 0 when absent.
+   *
+   * @generated from field: uint64 bytes = 3;
+   */
+  bytes: bigint;
+
+  /**
+   * Lowercase hex SHA-256 of the bundle file; empty when absent. The pattern
+   * admits exactly those two forms, so an absent ring validates without a
+   * placeholder digest and a present one is still held to 64 hex digits.
+   *
+   * @generated from field: string sha256 = 4;
+   */
+  sha256: string;
+
+  /**
+   * Records in the bundle file — each one whole, decoded and inside [t0,t1].
+   * Also the file's capacity, head and begun.
+   *
+   * @generated from field: uint64 record_count = 5;
+   */
+  recordCount: bigint;
+
+  /**
+   * Records the copy took that the writer may have overwritten while the copy
+   * was being taken (refused by the seqlock rule), discarded. It counts losses
+   * DURING the copy only; records overwritten before it began are counted
+   * nowhere.
+   *
+   * @generated from field: uint64 overwritten_during_copy = 6;
+   */
+  overwrittenDuringCopy: bigint;
+
+  /**
+   * Whole records whose mono_ns fell outside [t0,t1], discarded. Large values
+   * are normal: the ring holds history from before t0 and keeps filling
+   * between t1 and the copy. Not a loss.
+   *
+   * @generated from field: uint64 outside_window = 7;
+   */
+  outsideWindow: bigint;
+
+  /**
+   * The window's HEAD is missing from the packet trace: the ring had lost
+   * records before they could be kept (it had wrapped before the copy, or
+   * overwritten_during_copy is non-zero) AND the oldest record kept is later
+   * than t0. A ring that never wrapped and simply has its first datagram after
+   * t0 (the `packets` level armed mid-window, the stream started late) does
+   * NOT set it. Per-channel and informational — it is not an IntegrityReport
+   * degrade flag.
+   *
+   * @generated from field: bool window_start_lost = 8;
+   */
+  windowStartLost: boolean;
+
+  /**
+   * Why there is no file: no ring on the box, the `packets` level never
+   * armed, no record survived the seqlock and window filters, or the ring
+   * could not be read or validated (that last case also sets
+   * IntegrityReport.gige_packet_rings_incomplete). Empty when the file is
+   * present.
+   *
+   * @generated from field: string absent_reason = 9;
+   */
+  absentReason: string;
+
+  /**
+   * Records the WRITER could not place in the ring since it was created (the
+   * ring header's refused count): datagrams the receiver took that the
+   * packet trace never held. Cumulative over the ring's life, not scoped to
+   * the window; non-zero means the trace under-counts packets somewhere, and
+   * possibly inside the window. 0 when there is no ring to read.
+   *
+   * @generated from field: uint64 writer_refused = 10;
+   */
+  writerRefused: bigint;
+
+  /**
+   * Records the ring no longer held when the copy began, because later
+   * records overwrote them (records written minus capacity; 0 before the ring
+   * first wrapped). Cumulative over the ring's life; whether any of them fell
+   * inside the window is window_start_lost. 0 when there is no ring to read.
+   *
+   * @generated from field: uint64 overwritten_before_copy = 11;
+   */
+  overwrittenBeforeCopy: bigint;
+};
+
+/**
+ * Describes the message jon.cvdump.GigePacketRing.
+ * Use `create(GigePacketRingSchema)` to create a new message.
+ */
+export const GigePacketRingSchema: GenMessage<GigePacketRing> = /*@__PURE__*/
+  messageDesc(file_jon_cv_dump_archive, 10);
+
+/**
+ * One channel's GigE `stats` trace ring, copied off the box and compacted to
+ * the capture window.
+ *
+ * On the box the ring is
+ * `/dev/shm/jettison/gige-<chan>/jon_gige_stats_<chan>.ring`, written by the
+ * receiver (the sensor harness) only while `gige_trace.stats` is on, and only
+ * for the day channel: the same 64-byte `JGRG` header and seqlock mechanism as
+ * the packets ring (GigePacketRing), its header's record length naming the
+ * kind, then one 40,272-byte `stats` record per frame the harness took — the
+ * frame's MAX10 statistics and footer chunk data as received, beside the ISP
+ * statistics block the harness published for that same frame (record layout
+ * STATS_OFF_* in mods/gige/crates/gige-wire/src/trace.rs). The ring holds a
+ * few minutes of frames, so a window longer than that loses its head before
+ * the harvest copies it (window_start_lost). The harvester copies it while its
+ * writer may still be writing, keeps only the records no write could have
+ * touched during the copy, then keeps only those whose mono_ns falls inside
+ * [t0,t1].
+ *
+ * mono_ns is CLOCK_MONOTONIC when the harness WROTE the record (after the
+ * frame's ring publish, not its capture — the record's capture stamp is
+ * another field), at the same record offset as the packet record's, compared
+ * here against the CLOCK_BOOTTIME window in CaptureWindow. On a target that
+ * never suspends the two coincide; that is a premise, not an identity.
+ *
+ * The bundle file is itself a VALID ring, laid out exactly as GigePacketRing
+ * describes for the packets ring: the box's header with capacity, head and
+ * begun each set to record_count, then the kept records oldest-first from
+ * slot 0. When no record survives no file is written: path and sha256 are
+ * empty, record_count is 0 and absent_reason says why.
+ *
+ * What it can NOT hold: frames whose records the ring had already overwritten
+ * before the copy began (overwritten_before_copy; window_start_lost says
+ * whether they reach into the window), records the writer turned away
+ * (writer_refused), and frames the harness never recorded. A frame missing
+ * from the bundle proves nothing until window_start_lost and
+ * overwritten_during_copy are both clear for the stretch it falls in and
+ * writer_refused is 0.
+ *
+ * @generated from message jon.cvdump.GigeStatsRing
+ */
+export type GigeStatsRing = Message<"jon.cvdump.GigeStatsRing"> & {
+  /**
+   * "day" | "heat". Only the day channel has a stats ring; heat is listed
+   * with an absent_reason, the VideoChannel rule.
+   *
+   * @generated from field: string channel = 1;
+   */
+  channel: string;
+
+  /**
+   * Bundle-relative, "gige/stats_<chan>.ring". Empty exactly when there is
+   * no file — then absent_reason says why.
+   *
+   * @generated from field: string path = 2;
+   */
+  path: string;
+
+  /**
+   * Size of the bundle file; 0 when absent.
+   *
+   * @generated from field: uint64 bytes = 3;
+   */
+  bytes: bigint;
+
+  /**
+   * Lowercase hex SHA-256 of the bundle file; empty when absent. The pattern
+   * admits exactly those two forms, so an absent ring validates without a
+   * placeholder digest and a present one is still held to 64 hex digits.
+   *
+   * @generated from field: string sha256 = 4;
+   */
+  sha256: string;
+
+  /**
+   * Records in the bundle file — each one whole, decoded and inside [t0,t1].
+   * Also the file's capacity, head and begun.
+   *
+   * @generated from field: uint64 record_count = 5;
+   */
+  recordCount: bigint;
+
+  /**
+   * Records the copy took that the writer may have overwritten while the copy
+   * was being taken (refused by the seqlock rule), discarded. It counts losses
+   * DURING the copy only; records overwritten before it began are counted
+   * nowhere.
+   *
+   * @generated from field: uint64 overwritten_during_copy = 6;
+   */
+  overwrittenDuringCopy: bigint;
+
+  /**
+   * Whole records whose mono_ns fell outside [t0,t1], discarded. Large values
+   * are normal: the ring holds history from before t0 and keeps filling
+   * between t1 and the copy. Not a loss.
+   *
+   * @generated from field: uint64 outside_window = 7;
+   */
+  outsideWindow: bigint;
+
+  /**
+   * The window's HEAD is missing from the stats trace: the ring had lost
+   * records before they could be kept (it had wrapped before the copy, or
+   * overwritten_during_copy is non-zero) AND the oldest record kept is later
+   * than t0. A ring that never wrapped and simply has its first record after
+   * t0 (`gige_trace.stats` turned on mid-window) does NOT set it.
+   * Per-channel and informational — it is not an IntegrityReport degrade
+   * flag.
+   *
+   * @generated from field: bool window_start_lost = 8;
+   */
+  windowStartLost: boolean;
+
+  /**
+   * Why there is no file: no ring on the box (heat has none; on day,
+   * `gige_trace.stats` never turned on), no record survived the seqlock and
+   * window filters, or the ring could not be read or validated (that last
+   * case also sets IntegrityReport.gige_stats_rings_incomplete). Empty when
+   * the file is present.
+   *
+   * @generated from field: string absent_reason = 9;
+   */
+  absentReason: string;
+
+  /**
+   * Records the WRITER could not place in the ring since it started (the ring
+   * header's refused count), across its life, not scoped to the window. The
+   * harness's stats writer never advances this count, so it reads 0 today; a
+   * record that writer could not write is counted in its own
+   * `[[GIGE_TRACE]]` receipt (stats_failed), not here. 0 when there is no
+   * ring to read.
+   *
+   * @generated from field: uint64 writer_refused = 10;
+   */
+  writerRefused: bigint;
+
+  /**
+   * Records the ring no longer held when the copy began, because later
+   * records overwrote them (records written minus capacity; 0 before the ring
+   * first wrapped). Cumulative over the ring's life; whether any of them fell
+   * inside the window is window_start_lost. 0 when there is no ring to read.
+   *
+   * @generated from field: uint64 overwritten_before_copy = 11;
+   */
+  overwrittenBeforeCopy: bigint;
+
+  /**
+   * Bytes per record slot, read from the box ring's header (40,272 for the
+   * `stats` record of the format it was written in). Lets a reader walk the
+   * file without knowing the record format; 0 when absent.
+   *
+   * @generated from field: uint32 record_len = 12;
+   */
+  recordLen: number;
+};
+
+/**
+ * Describes the message jon.cvdump.GigeStatsRing.
+ * Use `create(GigeStatsRingSchema)` to create a new message.
+ */
+export const GigeStatsRingSchema: GenMessage<GigeStatsRing> = /*@__PURE__*/
+  messageDesc(file_jon_cv_dump_archive, 11);
+
+/**
  * One contiguous run of records from ONE source.
  *
  * The records are carried as an opaque payload rather than as repeated nested
@@ -727,9 +1095,10 @@ export type StreamGroup = Message<"jon.cvdump.StreamGroup"> & {
   kind: StreamKind;
 
   /**
-   * The EXACT source, never sanitized: a redis stream key for kinds 1-3
-   * (e.g. "logs:can:0x500", "logs:rotary:uart:tx"), a TSDB table name for
-   * kind 4 (e.g. "state_logs").
+   * The EXACT source, never sanitized: a redis stream key for every
+   * redis-stream kind (e.g. "logs:can:0x500", "logs:rotary:uart:tx",
+   * "logs:gige:day"), a TSDB table name for STREAM_KIND_TSDB_TABLE (e.g.
+   * "state_logs"). Which kinds are which: see StreamKind.
    *
    * @generated from field: string source = 2;
    */
@@ -777,17 +1146,18 @@ export type StreamGroup = Message<"jon.cvdump.StreamGroup"> & {
   truncated: boolean;
 
   /**
-   * TSDB-table groups only (kind 4): the table's columns in ordinal order, so
-   * the rows parse offline with no PostgreSQL catalog. Empty for redis-stream
-   * kinds.
+   * STREAM_KIND_TSDB_TABLE groups only: the table's columns in ordinal order,
+   * so the rows parse offline with no PostgreSQL catalog. Empty for every
+   * redis-stream kind.
    *
    * @generated from field: repeated jon.cvdump.ColumnDef columns = 8;
    */
   columns: ColumnDef[];
 
   /**
-   * The records. Decode with codec, then parse as RedisStreamRecords for kinds
-   * 1-3 or TableRows for kind 4.
+   * The records. Decode with codec, then parse as TableRows for
+   * STREAM_KIND_TSDB_TABLE and as RedisStreamRecords for every redis-stream
+   * kind.
    *
    * @generated from field: bytes payload = 9;
    */
@@ -799,7 +1169,7 @@ export type StreamGroup = Message<"jon.cvdump.StreamGroup"> & {
  * Use `create(StreamGroupSchema)` to create a new message.
  */
 export const StreamGroupSchema: GenMessage<StreamGroup> = /*@__PURE__*/
-  messageDesc(file_jon_cv_dump_archive, 10);
+  messageDesc(file_jon_cv_dump_archive, 12);
 
 /**
  * One column of a TSDB table.
@@ -825,10 +1195,11 @@ export type ColumnDef = Message<"jon.cvdump.ColumnDef"> & {
  * Use `create(ColumnDefSchema)` to create a new message.
  */
 export const ColumnDefSchema: GenMessage<ColumnDef> = /*@__PURE__*/
-  messageDesc(file_jon_cv_dump_archive, 11);
+  messageDesc(file_jon_cv_dump_archive, 13);
 
 /**
- * The decoded payload of a redis-stream group (StreamKind 1-3).
+ * The decoded payload of a group of any redis-stream kind (every StreamKind
+ * except STREAM_KIND_TSDB_TABLE).
  *
  * @generated from message jon.cvdump.RedisStreamRecords
  */
@@ -844,7 +1215,7 @@ export type RedisStreamRecords = Message<"jon.cvdump.RedisStreamRecords"> & {
  * Use `create(RedisStreamRecordsSchema)` to create a new message.
  */
 export const RedisStreamRecordsSchema: GenMessage<RedisStreamRecords> = /*@__PURE__*/
-  messageDesc(file_jon_cv_dump_archive, 12);
+  messageDesc(file_jon_cv_dump_archive, 14);
 
 /**
  * One redis stream entry, byte-faithful.
@@ -875,12 +1246,12 @@ export type RedisStreamRecord = Message<"jon.cvdump.RedisStreamRecord"> & {
  * Use `create(RedisStreamRecordSchema)` to create a new message.
  */
 export const RedisStreamRecordSchema: GenMessage<RedisStreamRecord> = /*@__PURE__*/
-  messageDesc(file_jon_cv_dump_archive, 13);
+  messageDesc(file_jon_cv_dump_archive, 15);
 
 /**
  * A single redis field. value is RAW BYTES and is never UTF-8 decoded: the
- * io-record streams carry binary payloads (DATCON frames, CAN blobs) that a
- * text round-trip would destroy.
+ * io-record streams carry binary payloads (DATCON frames, CAN blobs, GigE
+ * trace records) that a text round-trip would destroy.
  *
  * @generated from message jon.cvdump.RedisStreamField
  */
@@ -901,10 +1272,10 @@ export type RedisStreamField = Message<"jon.cvdump.RedisStreamField"> & {
  * Use `create(RedisStreamFieldSchema)` to create a new message.
  */
 export const RedisStreamFieldSchema: GenMessage<RedisStreamField> = /*@__PURE__*/
-  messageDesc(file_jon_cv_dump_archive, 14);
+  messageDesc(file_jon_cv_dump_archive, 16);
 
 /**
- * The decoded payload of a TSDB-table group (StreamKind 4).
+ * The decoded payload of a STREAM_KIND_TSDB_TABLE group.
  *
  * @generated from message jon.cvdump.TableRows
  */
@@ -925,7 +1296,7 @@ export type TableRows = Message<"jon.cvdump.TableRows"> & {
  * Use `create(TableRowsSchema)` to create a new message.
  */
 export const TableRowsSchema: GenMessage<TableRows> = /*@__PURE__*/
-  messageDesc(file_jon_cv_dump_archive, 15);
+  messageDesc(file_jon_cv_dump_archive, 17);
 
 /**
  * Format version of a CvDumpArchive. Carried as CvDumpArchive.version — FIELD
@@ -1042,6 +1413,13 @@ export const ArchiveCodecSchema: GenEnum<ArchiveCodec> = /*@__PURE__*/
  * the encoded archive — the property a future codec needs, since a homogeneous
  * byte run is what compresses.
  *
+ * Every kind except STREAM_KIND_TSDB_TABLE is a REDIS-STREAM kind: its source
+ * is a stream key on the LOGS redis and its payload is RedisStreamRecords.
+ * STREAM_KIND_TSDB_TABLE alone is a table slice. The comments on StreamGroup,
+ * RedisStreamRecords and TableRows refer to the kinds by that split, never by
+ * a numeric range, so a new redis-stream kind is declared here and nowhere
+ * else.
+ *
  * @generated from enum jon.cvdump.StreamKind
  */
 export enum StreamKind {
@@ -1092,6 +1470,31 @@ export enum StreamKind {
    * @generated from enum value: STREAM_KIND_MOTION_HISTORY = 5;
    */
   MOTION_HISTORY = 5,
+
+  /**
+   * `logs:gige:<channel>` on the LOGS redis (db 6) — the GigE camera link's
+   * trace records at the `control` and `frames` trace levels. BOTH ends write
+   * into the same per-channel stream: the receiver on the Orin (gige-ingress,
+   * inside the sensor harness) and the camera-side sender (gige-device: the
+   * twin, later the head). The record's own header says which side wrote it,
+   * never the stream. Each entry carries ONE encoded record, field `rec`, in
+   * the `JGTR` record format (authority mods/gige/crates/gige-wire/src/trace.rs,
+   * C mirror inc/gige/gige_trace.h). One group per channel stream key. payload
+   * is RedisStreamRecords.
+   *
+   * The writer trims each stream approximately (XADD MAXLEN ~), so a window
+   * longer than the stream holds loses its HEAD to the trim before the harvest
+   * reads it, and the group's `truncated` flag does NOT report that loss — it
+   * reports only the harvester's own per-source cap.
+   *
+   * The `packets` trace level never reaches redis; its ring files are carried
+   * as CvDumpArchive.gige_packet_rings. Nor does the day channel's `stats`
+   * record (gige_trace.stats); its ring is carried as
+   * CvDumpArchive.gige_stats_rings.
+   *
+   * @generated from enum value: STREAM_KIND_GIGE = 6;
+   */
+  GIGE = 6,
 }
 
 /**
